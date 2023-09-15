@@ -1,0 +1,32 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+    
+    /* font-weight: 700; */
+}
+
+.sidebarRow__icon{
+    color: #606060;
+    font-size: 24px !important;
+}
+
+.sidebarRow__iconName{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.sidebarRow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.sidebarRow:hover > .sidebarRow__icon{
+    color: red;
+}
+
+.sidebarRow:hover > .sidebarRow__iconName{
+    font-weight: bold;
+}
